@@ -53,6 +53,116 @@ Aprenda a PENSAR como um programador JavaScript e DOMINE o paradigma FUNCIONAL e
 
 ## <a name="parte2">2 - Seção 2: Funções </a>
 
+11. Introdução do Módulo
+
+12. Aviso importante aos usuários de Windows
+
+13. Configuração do Ambiente
+
+14. Alterando Nome Projeto
+
+15. Básico sobre Função #01
+
+```JavaScript
+let a = 4
+console.log(a);
+
+// Function Declaration
+function bomDia() {
+  console.log('Bom dia!');
+}
+bomDia();
+
+// Function Expression
+const boaTarde = function () {
+  console.log('Boa tarde!');
+}
+boaTarde();
+
+function soma(a, b) {
+  return a + b;
+}
+let resultado = soma(20, 2);
+console.log(resultado);//22
+
+resultado = soma(20, 2, 3, 4, 5, 6, 7);
+console.log(resultado);//22
+
+resultado = soma(20);
+console.log(resultado);//NaN
+
+
+function soma2(a = 0, b = 0) {
+  return a + b;
+}
+resultado = soma2(20);
+console.log(resultado);//20
+resultado = soma2();
+console.log(resultado);//0
+
+```
+
+16. Básico sobre Função #02
+
+17. Desafio #01
+
+18. Básico sobre Função #03
+
+19. Função Callback #01
+
+20. Função Callback #02
+
+21. Função Map #01
+
+22. Função Map #02
+
+23. Função Map #03
+
+24. Função Map #04
+
+25. Função Filter #01
+
+26. Função Filter #02
+
+27. Função Filter #03
+
+28. Função Reduce #01
+
+29. Função Reduce #02
+
+30. Desafio Map, Reduce e Filter
+
+31. Desafio Map, Reduce e Filter - Resposta
+
+32. Função Reduce #03
+
+33. Promise #01
+
+34. Promise #02
+
+35. Promise #03
+
+36. Desafio Promise
+
+37. Desafio Promise - Resposta
+
+38. Promise #04
+
+39. Promise #05
+
+40. Async/Await #01
+
+41. Async/Await #02
+
+42. OO #01
+
+43. OO #02
+
+44. OO #03
+
+45. Conclusão do Módulo
+
+
 [Voltar ao Índice](#indice)
 
 ---
